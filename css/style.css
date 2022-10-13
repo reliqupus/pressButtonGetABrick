@@ -1,0 +1,34 @@
+body {
+    background-color: #353535;
+    color: whitesmoke;
+}
+
+.content {
+    position: absolute;
+    box-sizing: border-box;
+
+    width: 50%;
+    height: 90%;
+
+    left: 25%;
+    top: 5%;
+
+    background-color: black;
+}
+
+.part {
+    height: 10%;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
